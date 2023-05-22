@@ -9,14 +9,14 @@ RandomForestClassifier: The RandomForestClassifier algorithm is an ensemble lear
 
 Streamlit: Streamlit is a Python library used for building interactive web applications. In this project, Streamlit is used to create a simple web interface where users can enter an email and classify it as either phishing or legitimate.
 
-#Project Structure
+# Project Structure
 The project directory contains the following files:
 
 phishing_classifier.py: The main Python script that implements the email classification functionality. It uses the scikit-learn library for machine learning algorithms and Streamlit for the web interface.
 
 phishing_classifier.pdf: The pdf contains the presentation for the phishing email classifications which gives introduction to phishing,how algorithms works,benefits,challenges and more.
 
-#Usage
+# Usage
 To use the phishing email classifier:
 
 Install the required dependencies by running the following command:
@@ -29,7 +29,7 @@ streamlit run phishing_classifier.py
 The Streamlit app will open in a web browser. Enter the email content into the text input field and click the "Classify Email" button.
 The app will display the classification result (phishing or legitimate) along with the input email.
 
-#Dataset
+# Dataset
 The dataset used in this project is a sample dataset provided in the code. It consists of a list of emails, where each email is labeled as either phishing or legitimate. The emails and labels are stored in separate arrays.
 To use your own labeled dataset, replace the emails and labels arrays in the code with your own data.
 
