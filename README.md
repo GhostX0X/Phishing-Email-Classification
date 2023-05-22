@@ -33,7 +33,7 @@ The app will display the classification result (phishing or legitimate) along wi
 The dataset used in this project is a sample dataset provided in the code. It consists of a list of emails, where each email is labeled as either phishing or legitimate. The emails and labels are stored in separate arrays.
 To use your own labeled dataset, replace the emails and labels arrays in the code with your own data.
 
-#Conclusion
+# Conclusion
 This project demonstrates the use of machine learning algorithms, including CountVectorizer, train_test_split, RandomForestClassifier, and Streamlit, for phishing email classification. By training a classifier on labeled data and providing a simple web interface, users can quickly determine if an email is potentially malicious or legitimate.
 
 Please feel free to reach out if you have any questions or suggestions!
